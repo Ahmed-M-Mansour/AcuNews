@@ -1,0 +1,59 @@
+/*-- fix the values of all elements  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 200px;
+}
+
+/*-- The container that have all the element of the page   */
+.container {
+  width: 30%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+  background-image: url(../iamges/bacreg.png);
+  background-size: 100%;
+}
+
+/*------ The styles of the LogIn page  ----------  */
+.container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container form .fornInput {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.container form .fornInput label {
+  font-size: 20px;
+}
+.container form .fornInput input {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.container form button {
+  display: block;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  background: #0a66c2;
+  border-radius: 28px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+
+@media (max-width: 700px) {
+  .container {
+    width: 70%;
+  }
+}
